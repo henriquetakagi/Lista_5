@@ -1,7 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        Carro carro = new Carro("Carro", "2000");
-        carro.ligar();
+        Aluno aluno = new Aluno();
+        aluno.setNome("Diego");
+        aluno.setIdade(18);
+        aluno.apresentar();
+
+        System.out.println("==================Digievolução==================");
+
+        Professor professor = new Professor();
+        professor.setNome("Diego");
+        professor.setIdade(29);
+        professor.apresentar();
 
     }
 }

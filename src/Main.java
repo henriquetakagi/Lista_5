@@ -1,10 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        Cachorro c = new Cachorro("Pop");
-        Gato g = new Gato("Mia");
+        Funcionario f = new Funcionario("Pedro", 100);
+        Gerente g = new Gerente("Ana", 300);
 
-        g.emitirSom();
-        c.emitirSom();
-
+        
+        System.err.println(f.calcularBonus());
+        System.out.println(g.calcularBonus());
+        
     }
 }

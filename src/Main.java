@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        Veiculo v = new Veiculo("x");
+        Circulo c = new Circulo(2);
+        Retangulo r = new Retangulo(2, 4);
+
+        c.calcularArea();
+        r.calcularArea();
         
     }
 }

@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Circulo c = new Circulo(2);
-        Retangulo r = new Retangulo(2, 4);
 
-        c.calcularArea();
-        r.calcularArea();
-        
+        ContaCorrente cc = new ContaCorrente();
+        cc.depositar(100);
+        cc.sacar(200);
+
+        ContaPoupanca cp = new ContaPoupanca();
+        cp.depositar(100);
+        cp.sacar(100);
     }
 }
